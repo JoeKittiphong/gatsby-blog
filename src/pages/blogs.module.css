@@ -1,0 +1,43 @@
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    color: #EEEEEE;
+    margin: 10px;
+    position: relative;
+    background-color: #222831;
+}
+
+.img {
+    display: grid;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width : 300px) {
+    .img{
+        width: 200px;
+    }
+}
+@media only screen and (min-width : 700px) {
+    .img{
+        width: 400px;
+    }
+}
+.writer {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.btn{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    padding: 5px 10px;
+    background-color: #00ADB5;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    color: #EEEEEE;
+}
