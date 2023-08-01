@@ -3,21 +3,27 @@ import { graphql } from "gatsby"
 import * as style from "./blogTemplate.module.css"
 import Header from '../components/Header'
 
-function blogTemplate({ data: { markdownRemark } }) {
-    const data = markdownRemark.frontmatter
+import Fbshare from '../components/Share'
+
+function blogTemplate({data}) {
+    const url = `${data.site.host}${data.markdownRemark.frontmatter.path}`
     return (
         <div className={style.blog}>
-            <Header title={data.head} content={data.title} ></Header>
+            <Fbshare url={url} quote={data.markdownRemark.frontmatter.title} hastag={"#test"} />
+            <Header title={data.markdownRemark.frontmatter.head} content={data.markdownRemark.frontmatter.title} ></Header>
             <div className={style.title}>
                 <h1>
-                    {data.head}
+                    {data.markdownRemark.frontmatter.head}
                 </h1>
                 <div className={style.writen}>
-                    <p>ผู้เขียน : {data.writer}</p>
-                    <p>{data.date}</p>
+                    <p>ผู้เขียน : {data.markdownRemark.frontmatter.writer}</p>
+                    <p>{data.markdownRemark.frontmatter.date}</p>
                 </div>
             </div>
-            <div className={style.content} dangerouslySetInnerHTML={{ __html: markdownRemark.html }}></div>
+            <div className={style.content} dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>
+            <div className={style.tag}>
+                Tag : {data.markdownRemark.frontmatter.tag}
+            </div>
         </div>
     )
 }
@@ -34,7 +40,13 @@ export const query = graphql`
                 cover
                 writer
                 date
+                tag
+                path
             }
+        }
+        site {
+            host
+            port
         }
     }
 `

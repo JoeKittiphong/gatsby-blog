@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 import "../style/global.css"
 
 function Layout({ children }) {
@@ -10,6 +11,9 @@ function Layout({ children }) {
             </div>
             <div className="main">
                 {children}
+            </div>
+            <div>
+                <Footer/>
             </div>
         </div>
     )

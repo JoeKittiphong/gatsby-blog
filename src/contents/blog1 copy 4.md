@@ -5,6 +5,7 @@ path : /blog/fe
 cover : https://drive.google.com/uc?export=view&id=1feaR4KPKvsrvCaY1douH6XPiIobbMe2j
 writer : joe kittiphong
 date : 12-10-2023
+tag : ea forex auto trade trader autotrade crypto invest
 ---
 
 ![](https://drive.google.com/uc?export=view&id=1feaR4KPKvsrvCaY1douH6XPiIobbMe2j)
