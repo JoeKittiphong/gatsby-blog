@@ -14,8 +14,8 @@ function blogs({ data: { allMarkdownRemark } }) {
           </div>
           <div className={style.detail}>
             <div>
-              <h1>{frontmatter.head}</h1>
-              <p>{frontmatter.title}</p>
+              <h1 className={style.head}>{frontmatter.head}</h1>
+              <p className={style.title}>{frontmatter.title}</p>
             </div>
             <Link className={style.btn} to={frontmatter.path}>อ่านต่อ ...</Link>
           </div>
