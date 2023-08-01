@@ -4,12 +4,14 @@ import "../style/global.css"
 
 function Layout({ children }) {
     return (
-        <section>
-            <Navbar />
+        <div>
+            <div className='nav'>
+                <Navbar />
+            </div>
             <div className="main">
                 {children}
             </div>
-        </section>
+        </div>
     )
 }
 

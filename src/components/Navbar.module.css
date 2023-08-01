@@ -1,12 +1,15 @@
 .nav{   
     background: #393E46; 
-    /* border: dashed 1px; */
+    width: 80%;
     height: 60px;
     padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid #222831;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .logo {
@@ -15,7 +18,6 @@
 }
 
 .navlink{
-    /* border: 1px dashed; */
     min-width: 200px;
     max-width: 400px;
     height: 100%;

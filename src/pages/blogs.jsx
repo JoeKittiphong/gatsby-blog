@@ -5,16 +5,18 @@ import Header from '../components/Header'
 
 function blogs({ data: { allMarkdownRemark } }) {
   return (
-    <div>
+    <div className={style.box}>
       <Header title={"Blog"} content={"all content"} ></Header>
       {allMarkdownRemark.nodes.map(({ id, frontmatter }) => {
         return <div key={id} className={style.card}>
           <div className={style.img}>
-            <img src={frontmatter.cover} />
+            <img className={style.cardimg} src={frontmatter.cover} />
           </div>
-          <div>
-            <h1>{frontmatter.head}</h1>
-            <p>{frontmatter.title}</p>
+          <div className={style.detail}>
+            <div>
+              <h1>{frontmatter.head}</h1>
+              <p>{frontmatter.title}</p>
+            </div>
             <Link className={style.btn} to={frontmatter.path}>อ่านต่อ ...</Link>
           </div>
         </div>

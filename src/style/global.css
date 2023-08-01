@@ -14,7 +14,10 @@ img {
 .main {
     width: 80%;
     margin: 0 auto;
+    position: relative;
+    top: 70px;
 }
+
 
 pre {
     border-left: 5px solid #00ADB5;
