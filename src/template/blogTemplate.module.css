@@ -1,5 +1,6 @@
 .blog{
     margin-top: 20px;
+    position: relative;
 }
 
 .content {
@@ -28,4 +29,9 @@
     padding: 10px;
     color: aliceblue;
     font-size: 12px;
+}
+
+.share{
+    position: fixed;
+    bottom: 0;
 }
