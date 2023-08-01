@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Fbshare from '../components/Share'
 
 function blogTemplate({data}) {
-    const url = `${data.site.host}${data.markdownRemark.frontmatter.path}`
+    const url = `www.test.com/${data.markdownRemark.frontmatter.path}`
     return (
         <div className={style.blog}>
             <Fbshare url={url} quote={data.markdownRemark.frontmatter.title} hastag={"#test"} />
@@ -43,10 +43,6 @@ export const query = graphql`
                 tag
                 path
             }
-        }
-        site {
-            host
-            port
         }
     }
 `
