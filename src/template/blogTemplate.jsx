@@ -9,7 +9,7 @@ function blogTemplate({data}) {
     const url = `https://kaleidoscopic-pasca-7ceb5a.netlify.app/${data.markdownRemark.frontmatter.path}`
     return (
         <div className={style.blog}>
-            <Fbshare className={style.share} url={url} quote={data.markdownRemark.frontmatter.title} hastag={"#test"} />
+            <Fbshare className={style.share} url={url} quote={data.markdownRemark.frontmatter.title} hastag={"#zylaah #zylaahautotrade #autotrade #ea #forex #forexea"} />
             <Header title={data.markdownRemark.frontmatter.head} content={data.markdownRemark.frontmatter.title} ></Header>
             <div className={style.title}>
                 <h1>

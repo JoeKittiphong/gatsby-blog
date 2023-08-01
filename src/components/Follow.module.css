@@ -1,0 +1,25 @@
+.follow{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    right: 1%;
+    top: 40%;
+    background: #222831;
+    border-radius: 50px;
+}
+
+.followtxt{
+    background: #c2c2c2;
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+}

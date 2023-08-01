@@ -5,7 +5,6 @@ import {
   TwitterShareButton
 } from "react-share"
 
-import share from "../images/share/share_96px.png"
 import fb from "../images/share/Facebook_96px.png"
 import ln from "../images/share/line_96px.png"
 import tw from "../images/share/twitter_circled_96px.png"

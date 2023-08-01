@@ -1,10 +1,45 @@
 .footer{
     background: #222831;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     margin-top: 80px;
+    color: aliceblue;
 }
 
 .img{
     width: 24px;
     height: 24px;
+}
+
+.linkimg{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5px;
+}
+.footertxt{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.credit{
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: aliceblue;
 }
