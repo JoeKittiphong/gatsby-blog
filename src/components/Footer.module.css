@@ -46,6 +46,6 @@
 
 @media only screen and (max-width : 800px) {
     .linkimg, .footertxt {
-        width: 80%;
+        width: 100%;
     }
 }

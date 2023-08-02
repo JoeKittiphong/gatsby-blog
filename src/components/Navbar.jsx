@@ -10,9 +10,8 @@ function Navbar() {
                 <img src={logo} alt="logo" className={style.logo}/>
             </Link>
             <div className={style.navlink}>
-                <Link className={style.link} to='/'>Home</Link>
-                <Link className={style.link} to='/blogs'>Blogs</Link>
-                <Link className={style.link} to='/about'>About</Link>
+                <Link className={style.link} to='/'>บทความ</Link>
+                <Link className={style.link} to='/about'>เกี่ยวกับเรา</Link>
             </div>
         </div>
     )

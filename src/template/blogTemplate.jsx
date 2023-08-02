@@ -4,11 +4,13 @@ import * as style from "./blogTemplate.module.css"
 import Header from '../components/Header'
 
 import Fbshare from '../components/Share'
+import Coffe from '../components/Coffe'
 
 function blogTemplate({data}) {
     const url = `https://kaleidoscopic-pasca-7ceb5a.netlify.app/${data.markdownRemark.frontmatter.path}`
     return (
         <div className={style.blog}>
+            <Coffe></Coffe>
             <Fbshare className={style.share} url={url} quote={data.markdownRemark.frontmatter.title} hastag={"#zylaah #zylaahautotrade #autotrade #ea #forex #forexea"} />
             <Header title={data.markdownRemark.frontmatter.head} content={data.markdownRemark.frontmatter.title} ></Header>
             <div className={style.title}>
