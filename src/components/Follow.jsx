@@ -17,7 +17,7 @@ function Follow() {
             <Link to='https://web.facebook.com/zylaah.fx/'>
                 <img src={fb} alt="follow facebook" />
             </Link>
-            <Link to='https://www.youtube.com/channel/UCiDzjqh0aJv6PYXwbOq88Ow'>
+            <Link to='https://youtube.com/@Zylaah-Autotrade'>
                 <img src={yt} alt="follow youtube" />
             </Link>
             <Link to='https://discord.gg/HENmvjkqKM'>
