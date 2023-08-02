@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../images/connect_develop_48px.png"
+import logo from "../images/zylaah_autotrade.png"
 
 function Header({title, content}) {
     return (<>

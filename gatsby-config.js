@@ -4,7 +4,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                icon: `src/images/connect_develop_48px.png`, // This path is relative to the root of the site.
+                icon: `src/images/zylaah_autotrade.png`, // This path is relative to the root of the site.
             }
         },
         "gatsby-transformer-remark",
