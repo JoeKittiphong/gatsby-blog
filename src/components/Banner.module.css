@@ -1,0 +1,23 @@
+.banner {
+    height: 250px;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vh;
+    top: -10px;
+}
+
+.bg {
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(.08rem);
+    z-index: -2;
+}
