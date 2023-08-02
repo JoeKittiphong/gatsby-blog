@@ -9,6 +9,7 @@ tag : ea forex auto trade trader autotrade crypto invest mql mql4 mql5 bot bottr
 ---
 
 ![](https://drive.google.com/uc?export=view&id=1P7ASW_vlY6RXIXIsbQ3zCPSmYb6cao0Y)
+![](../content-image/zylaah_autotrade.png)
 
 **สวัสดีชาวเทรดเดอร์ทุกท่าน** เอาหล่ะวันนี้ผมก็ได้ให้กำเนิดเว็บบล็อกนี้ขึ้นมา เพื่อตอบสนองความต้องการของตัวเองล้วนๆเลยคับ
 
