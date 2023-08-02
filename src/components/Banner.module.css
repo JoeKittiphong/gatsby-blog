@@ -1,20 +1,18 @@
 .banner {
-    height: 250px;
+    height: 200px;
     overflow: hidden;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    width: 100vh;
     top: -10px;
 }
 
 .bg {
-    height: 250px;
+    height: 200px;
     position: absolute;
     top: 0;
     left: 0;
