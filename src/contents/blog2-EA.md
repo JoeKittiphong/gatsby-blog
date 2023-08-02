@@ -2,12 +2,13 @@
 head : EA คืออะไร? มันดีอย่างไร?
 title : สำหรับคนที่ไม่รู้ว่า EA คืออะไร มันดีอย่างไร แล้วทำไมเราต้องใช่มัน ข้อควรระวังมีอะไรบ้าง ถ้าคนสงสัย บทความนี้มีคำตอบเข้าไปอ่านเลย
 path : /blog/EA คืออะไร
-cover : https://drive.google.com/uc?export=view&id=1feaR4KPKvsrvCaY1douH6XPiIobbMe2j
+cover : https://drive.google.com/uc?export=view&id=1WOERY38mP1-1eZbh9VioxB37VN8uT7jq
 writer : joe kittiphong
 date : 2-8-2023
 tag : ea forex auto trade trader autotrade crypto invest Forex EA Expert Advisor Forex automated trading Automated Forex trading Forex robot Algorithmic trading Forex algorithm Forex trading software MetaTrader EA Forex EA system Best Forex EA Top Forex Expert Advisor AI Forex trading Forex EA strategies Backtesting Forex EA Forex EA development Forex EA optimization Forex EA performance Reliable Forex EA Profitable Forex EA
 ---
 
+![](https://drive.google.com/uc?export=view&id=1WOERY38mP1-1eZbh9VioxB37VN8uT7jq)
 ![](../content-image/what%20is%20EA.jpg)
 
 
