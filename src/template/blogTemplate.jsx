@@ -7,7 +7,7 @@ import Fbshare from '../components/Share'
 import Coffe from '../components/Coffe'
 
 function blogTemplate({data}) {
-    const url = `https://kaleidoscopic-pasca-7ceb5a.netlify.app/${data.markdownRemark.frontmatter.path}`
+    const url = `https://zylaah-autotrade.com//${data.markdownRemark.frontmatter.path}`
     return (
         <div className={style.blog}>
             <Coffe></Coffe>
