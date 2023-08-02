@@ -10,8 +10,6 @@ function blogTemplate({data}) {
     const url = `https://zylaah-autotrade.com//${data.markdownRemark.frontmatter.path}`
     return (
         <div className={style.blog}>
-            <Coffe></Coffe>
-            <Fbshare className={style.share} url={url} quote={data.markdownRemark.frontmatter.title} hastag={"#zylaah #zylaahautotrade #autotrade #ea #forex #forexea"} />
             <Header title={data.markdownRemark.frontmatter.head} content={data.markdownRemark.frontmatter.title} ></Header>
             <div className={style.title}>
                 <h1>
@@ -26,6 +24,8 @@ function blogTemplate({data}) {
             <div className={style.tag}>
                 Tag : {data.markdownRemark.frontmatter.tag}
             </div>
+            <Coffe></Coffe>
+            <Fbshare className={style.share} url={url} quote={data.markdownRemark.frontmatter.title} hastag={"#zylaah #zylaahautotrade #autotrade #ea #forex #forexea"} />
         </div>
     )
 }
