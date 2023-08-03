@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from "gatsby"
-import * as style from "./blogs.module.css"
+import * as style from "./index.module.css"
 import Header from '../components/Header'
 import Banner from '../components/Banner'
 
@@ -13,7 +13,7 @@ function index({ data: { allMarkdownRemark } }) {
       <Header title={"Blog"} content={"all content"} ></Header>
       <Banner></Banner>
       {allMarkdownRemark.nodes.map(({ id, frontmatter }) => {
-        return <div key={id} className={style.card}>
+        return <Link to={frontmatter.path} key={id} className={style.card}>
           <div className={style.img}>
             <img className={style.cardimg} src={frontmatter.cover} />
           </div>
@@ -22,9 +22,9 @@ function index({ data: { allMarkdownRemark } }) {
               <h1 className={style.head}>{frontmatter.head}</h1>
               <p className={style.title}>{frontmatter.title}</p>
             </div>
-            <Link className={style.btn} to={frontmatter.path}>อ่านต่อ ...</Link>
+            {/* <Link className={style.btn} to={frontmatter.path}>อ่านต่อ ...</Link> */}
           </div>
-        </div>
+        </Link>
       })}
     </div>
   )

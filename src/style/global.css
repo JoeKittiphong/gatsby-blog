@@ -28,3 +28,16 @@ pre {
     padding: 20px;
     width: calc(100%-25px);
 }
+
+p{
+    >strong{
+        >a{
+            color :#00ADB5;
+        }
+    }
+    >img{
+        width: 70%;
+        margin-left: 20%;
+    }
+    
+}
