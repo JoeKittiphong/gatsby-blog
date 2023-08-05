@@ -2,7 +2,7 @@
 head : เข้าใจเรื่อง Pip, Pip Value, และ Lot Size ให้ละเอียด
 title : สำหรับคนที่ไม่รู้ว่า EA คืออะไร มันดีอย่างไร แล้วทำไมเราต้องใช่มัน ข้อควรระวังมีอะไรบ้าง ถ้าคนสงสัย บทความนี้มีคำตอบเข้าไปอ่านเลย
 path : /blog/EA คืออะไร
-cover : https://drive.google.com/uc?export=view&id=1WOERY38mP1-1eZbh9VioxB37VN8uT7jq
+cover : https://drive.google.com/uc?export=view&id=1Jofz47PWNxGY9aCviAab3K5rykW3cizL
 writer : joe kittiphong
 date : 2-8-2023
 tag : Forex trading beginners Understanding Pip Pip Value calculation Lot Size explanation Forex market basics Percentage in Point (pip) Forex trading concepts Forex trading guide Forex trading education Pip calculation example Lot Size and risk management Pip Value significance Forex trading terminology Currency pair movement Forex trading fundamentals

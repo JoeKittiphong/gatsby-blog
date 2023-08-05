@@ -16,7 +16,7 @@ function Footer() {
                 <Link to='https://web.facebook.com/zylaah.fx/'>
                     <img className={style.img} src={fb} alt="facebok" />
                 </Link>
-                <Link to='https://www.youtube.com/channel/UCiDzjqh0aJv6PYXwbOq88Ow'>
+                <Link to='https://www.youtube.com/@Zylaah-Autotrade'>
                     <img className={style.img} src={yt} alt="youtube" />
                 </Link>
                 <Link to='https://discord.gg/HENmvjkqKM'>
