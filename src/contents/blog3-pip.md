@@ -1,7 +1,7 @@
 ---
 head : เข้าใจเรื่อง Pip, Pip Value, และ Lot Size ให้ละเอียด
 title : สำหรับคนที่ไม่รู้ว่า EA คืออะไร มันดีอย่างไร แล้วทำไมเราต้องใช่มัน ข้อควรระวังมีอะไรบ้าง ถ้าคนสงสัย บทความนี้มีคำตอบเข้าไปอ่านเลย
-path : /blog/EA คืออะไร
+path : /blog/เข้าใจเรื่อง Pip, Pip Value, และ Lot Size
 cover : https://drive.google.com/uc?export=view&id=1Jofz47PWNxGY9aCviAab3K5rykW3cizL
 writer : joe kittiphong
 date : 2-8-2023
